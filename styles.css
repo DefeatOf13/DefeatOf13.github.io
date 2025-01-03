@@ -7,6 +7,15 @@
     }
 }
 
+@media (max-width: 768px) {
+  .title h1 {
+      font-size: 2rem;
+  }
+  .subtitle p {
+      font-size: 1rem;
+  }
+}
+
 .title {
   text-align: center;
   color: #fff;
@@ -63,6 +72,9 @@ body {
     margin: 0 15px;
     font-size: 30px;
     transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
   }
 
   .footer-icon:hover {
