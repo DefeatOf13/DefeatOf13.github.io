@@ -1,2 +1,2 @@
-# defeatof13.github.io
-[NEW] DefeatOf13's official website
+# DefitModss
+Official repo of DefeatOf13's official website
