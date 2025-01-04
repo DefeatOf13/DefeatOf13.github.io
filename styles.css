@@ -7,33 +7,32 @@
     }
 }
 
-@media (max-width: 768px) {
-  .title h1 {
-      font-size: 2rem;
-  }
-  .subtitle p {
-      font-size: 1rem;
-  }
-}
-
 .title {
   text-align: center;
   color: #fff;
   width: 100%;
   height: auto;
-  font-size: 50px;
   font-family: "Figtree", serif;
+  margin: 20px 0;
 }
 
 .title h1 {
   margin-top: -70px;
-  font-size: 110px;
+  font-size: 3.5rem;
+  margin: 10px 0;
+  margin-top: -10px;
+}
+
+.title h2 {
+  font-size: 2rem;
+  margin: 5px 0;
 }
 
 .title h4 {
-  margin-top: -70px;
+  font-size: 1.5rem;
+  margin: 4px 0;
+  margin-top: -10px;
 }
-
 
 .subtitle {
     text-align: center;
@@ -80,3 +79,9 @@ body {
   .footer-icon:hover {
     transform: scale(1.1);
   }
+
+  .local-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
